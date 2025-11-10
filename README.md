@@ -1,18 +1,18 @@
-# ⛽ Petrol Analytics Dashboard
+# ⛽ Petrol Spending Tracker
 
-A professional business intelligence platform for fuel spending analysis, forecasting, and strategic insights.
+A personal fuel spending analysis dashboard to help you understand your petrol habits, save money, and make smarter fuel decisions.
 
 ## 🚀 Overview
 
-The Petrol Analytics Dashboard is an enterprise-grade solution designed for investors, fleet managers, and business analysts to gain deep insights into fuel spending patterns, optimize costs, and make data-driven decisions.
+The Petrol Spending Tracker is designed for individuals who want to gain insights into their fuel spending patterns, identify cost-saving opportunities, and track their consumption habits over time.
 
 ### Key Features
 
-- **📊 Executive Dashboard** - Real-time KPIs and performance metrics
-- **🔍 Business Intelligence** - Advanced analytics and 30-day forecasting
-- **📋 Data Management** - Comprehensive data export and management tools
-- **🎯 Professional UI** - Investor-ready presentation with modern design
-- **📈 Predictive Analytics** - Machine learning-powered spending forecasts
+- **📊 Personal Dashboard** - Track your total spending, fuel consumption, and visit frequency
+- **🔍 Smart Insights** - Discover your spending patterns and get personalized recommendations
+- **📋 Data Management** - View and export your fuel transaction history
+- **🎯 Clean Interface** - Easy-to-use design that makes data analysis simple
+- **📈 Spending Predictions** - See forecasted fuel costs for better budgeting
 
 ## 🏗️ Architecture
 
@@ -24,7 +24,7 @@ petrol-analytics/
 ├── charts.py           # Professional visualization components
 ├── pages.py            # Dashboard page components
 ├── requirements.txt    # Python dependencies
-├── Spend.xlsx         # Data source (Excel format)
+├── Spend.xlsx         # Data source (Excel format) - provide your own
 └── README.md          # Documentation
 ```
 
@@ -70,44 +70,43 @@ The dashboard will be available at `http://localhost:8501`
 
 ## 📊 Dashboard Pages
 
-### Executive Dashboard
-- **KPI Cards** - Total investment, fuel volume, average rates, transactions
-- **Trend Analysis** - Smooth spending patterns over time
-- **Station Performance** - Comparative analysis of service providers
-- **Price Analytics** - Fuel price trends and volatility
-- **Consumption Patterns** - Volume analysis and efficiency metrics
+### Personal Dashboard
+- **Spending Summary** - Total spent, litres purchased, average price per litre, visit count
+- **Spending Trends** - See how your fuel spending changes over time
+- **Station Comparison** - Find out which stations you use most and their costs
+- **Price Tracking** - Monitor fuel price changes at your regular stations
+- **Consumption Patterns** - Understand your fuel usage habits
 
-### Business Intelligence
-- **Strategic Insights** - Automated business intelligence
-- **Predictive Forecasting** - 30-day spending predictions using ML
-- **Performance Metrics** - Monthly averages and efficiency indicators
-- **Cost Optimization** - Recommendations for expense reduction
+### Smart Insights
+- **Spending Analysis** - Automated insights about your fuel habits
+- **Future Predictions** - 30-day spending forecasts to help with budgeting
+- **Efficiency Metrics** - Monthly averages and consumption patterns
+- **Money-Saving Tips** - Recommendations to reduce fuel costs
 
 ### Data Management
-- **Dataset Overview** - Comprehensive data statistics
-- **Detailed Records** - Formatted transaction history
-- **Export Options** - CSV and JSON download capabilities
-- **Data Quality** - Validation and completeness metrics
+- **Transaction History** - View all your fuel purchases in detail
+- **Export Data** - Download your data as CSV or JSON files
+- **Data Summary** - Quick overview of your fuel spending records
 
-## 🎯 Business Value
+## 🎯 Personal Benefits
 
-### For Investors
-- **ROI Analysis** - Clear visibility into fuel investment returns
-- **Risk Assessment** - Price volatility and market exposure analysis
-- **Growth Projections** - Data-driven forecasting for budget planning
-- **Performance Benchmarking** - Comparative analysis across time periods
+### Save Money
+- **Find Cheaper Stations** - Identify which fuel stations offer the best value
+- **Track Price Changes** - Monitor fuel price trends to time your fill-ups
+- **Budget Planning** - Use spending predictions to plan your monthly fuel budget
+- **Spending Awareness** - Understand exactly where your fuel money goes
 
-### For Fleet Managers
-- **Cost Optimization** - Identify most cost-effective fuel stations
-- **Consumption Monitoring** - Track fuel efficiency and usage patterns
-- **Budget Planning** - Accurate forecasting for operational expenses
-- **Vendor Analysis** - Performance comparison of fuel suppliers
+### Understand Your Habits
+- **Consumption Patterns** - See how much fuel you actually use
+- **Visit Frequency** - Track how often you fill up and identify patterns
+- **Seasonal Trends** - Discover if your fuel usage changes throughout the year
+- **Station Preferences** - Learn which stations you visit most often
 
-### For Business Analysts
-- **Advanced Analytics** - Machine learning-powered insights
-- **Data Export** - Seamless integration with existing systems
-- **Custom Filtering** - Flexible analysis by year, month, and station
-- **Professional Reporting** - Investor-ready visualizations
+### Make Better Decisions
+- **Data-Driven Choices** - Use real data instead of guesswork
+- **Trend Analysis** - Spot patterns in your spending and consumption
+- **Future Planning** - Predict upcoming fuel costs for better budgeting
+- **Easy Tracking** - Simple interface makes monitoring your habits effortless
 
 ## 🔧 Technical Features
 
@@ -117,54 +116,12 @@ The dashboard will be available at `http://localhost:8501`
 - **Performance Optimization** - Efficient data caching and processing
 - **Scalability** - Designed to handle large datasets
 
-### Visualization
-- **Interactive Charts** - Professional Plotly-based visualizations
-- **Responsive Design** - Optimized for desktop and mobile viewing
-- **Custom Styling** - Professional color schemes and branding
-- **Export Ready** - High-quality charts suitable for presentations
 
 ### Analytics Engine
 - **Predictive Modeling** - Linear regression for spending forecasts
 - **Statistical Analysis** - Comprehensive KPI calculations
 - **Trend Detection** - Automated pattern recognition
 - **Business Intelligence** - Strategic insights generation
-
-## 🎨 Customization
-
-### Styling
-Modify `config.py` to customize:
-- Color schemes and branding
-- Chart configurations
-- Layout parameters
-- Professional themes
-
-### Analytics
-Extend `data_loader.py` to add:
-- Custom KPI calculations
-- Advanced statistical models
-- Additional data sources
-- Business rule implementations
-
-### Visualizations
-Enhance `charts.py` with:
-- New chart types
-- Interactive features
-- Custom styling options
-- Export capabilities
-
-## 📈 Performance
-
-- **Fast Loading** - Optimized data caching with Streamlit
-- **Responsive UI** - Smooth interactions and real-time updates
-- **Scalable Architecture** - Modular design for easy maintenance
-- **Professional Quality** - Enterprise-grade code standards
-
-## 🔒 Security
-
-- **Data Privacy** - Local data processing, no external transmission
-- **Input Validation** - Robust error handling and data validation
-- **Safe Operations** - No destructive operations on source data
-- **Audit Trail** - Comprehensive logging and monitoring
 
 ## 🤝 Contributing
 
@@ -174,17 +131,13 @@ Enhance `charts.py` with:
 4. Push to branch (`git push origin feature/enhancement`)
 5. Create Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## 📞 Support
 
 For technical support or business inquiries:
 - Create an issue in the repository
-- Contact the development team
-- Review documentation and examples
+- Contact Ofentse Menwe
 
 ---
 
-**Petrol Analytics Dashboard** - Transforming fuel data into business intelligence.
+**Petrol Spending Tracker** - Take control of your fuel spending with data-driven insights.
